@@ -1,0 +1,1093 @@
+* {
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#navbar {
+    height: 70px;
+    width: 100%;
+    background-color: #1f263b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+}
+
+#navbar img {
+    height: 60px;
+    width: 160px;
+    margin-left: 0px;
+}
+
+#navbar input {
+    height: 23px;
+    border-radius: 20px;
+    width: 250px;
+    padding-left: 25px;
+    color: black;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all,0.25s;
+}
+
+#navop {
+    float: right;
+    color: silver;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 0px;
+    
+}
+
+#navop a {
+    color: silver;
+    font-weight: 900;
+    font-family:monospace;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all,0.25s;
+}
+
+#navop a:hover {
+    font-size: 19px;
+    color: rgb(122, 122, 122);
+}
+
+#navbar input:focus:not(:active) {
+    height: 30px;
+    width: 260px;
+}
+
+
+
+#sidebar {
+    width: 160px;
+    height: 100%;
+    background-color: #1f263b;
+    position: fixed;
+    z-index: 1;
+}
+
+#sidebar a{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: silver;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 12px;
+    margin-left: 15px;
+    transition: all,0.25s;
+    width: 100%;
+}
+
+#sidebar a:hover {
+    font-size: 14px;
+    color: rgb(125, 125, 125);
+}
+
+#banner img{
+    height: 400px;
+    width: 700px;
+}
+
+#banner {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(13,19,35);
+}
+
+#products {
+    height: 100%;
+    width: 1100px;
+    background-color: #F7F7F4;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    left: 80px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+#products img {
+    height: 120px;
+    width: 295px;
+    margin-top: 5px;
+    transition: all,0.25s;
+    border-radius: 10px;
+    border: 5px,solid,rgb(131, 131, 131);
+}
+
+#products img:hover {
+    height: 140px;
+    width: 310px;
+}
+
+#footer {
+    display: block;
+    height: 100%;
+    background-color: rgb(13,19,35);
+    padding-left: 180px;
+    padding-top: 50px;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li {
+    color: white;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Copyright {
+    margin: auto;
+    position: relative;
+    right: 150px;
+}
+
+/* LAPTOP SUBPAGE */
+
+#head {
+    text-align: center;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(96, 96, 96);
+}
+
+#laptops {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: white;
+    padding-top: 45px;
+}
+
+.laptop {
+    height: 465px;
+    width: 325px;
+    background-color:rgb(253, 253, 253);
+    background-image: url(/images/HP\ victus.png);
+    background-size: 250px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: 15px;
+    color: black;
+    border: 2px,silver,solid;
+    font-family:monospace;
+    font-size: 15px;
+    transition: all,0.25s;
+    border-radius: 10px;
+}
+
+.laptop h2 {
+    padding-top: 265px;
+}
+
+.laptop p {
+    line-height: 25px;
+    font-weight: 900;
+}
+
+#lap1 {
+    background-image: url(/images/HP\ victus.png);
+}
+
+#lap1:hover {
+    background-image: url(/images/HPvictushover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#lap2 {
+    background-image: url(/images/acerpredator.png);
+}
+
+#lap2:hover {
+    background-image: url(/images/acerpredatorhover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#lap3 {
+    background-image: url(/images/hpomen.png);
+}
+
+#lap3:hover {
+    background-image: url(/images/hpomenhover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#lap4 {
+    background-image: url(/images/msiraider.png);
+}
+
+#lap4:hover {
+    background-image: url(/images/msiraiderhover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#lap5 {
+    background-image: url(/images/alienware.png);
+}
+
+#lap5:hover {
+    background-image: url(/images/alienwarehover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#lap6 {
+    background-image: url(/images/rogstrix.png);
+}
+
+#lap6:hover {
+    background-image: url(/images/rogstrixhover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+.laptop:hover {
+    background-color:rgb(253, 253, 253);
+    background-size: 300px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#buttons button {
+    background-color: #1f263b;
+    color: white;
+    height: 40px;
+    width: 140px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    border: 2px,silver,solid;
+    border-radius: 20px;
+    transition: all,0.25s;
+}
+
+#buttons button:hover {
+    background-color: white;
+    color: #1f263b;
+    height: 45px;
+    width: 155px;
+    border: 2px,#1f263b,solid;
+    cursor: pointer;
+}
+
+/* CASING SUBPAGE */
+
+#head {
+    text-align: center;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(96, 96, 96);
+}
+
+#casings {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: white;
+    padding-top: 45px;
+}
+
+
+.casing {
+    height: 465px;
+    width: 325px;
+    background-color:rgb(253, 253, 253);
+    background-image: url(/images/HP\ victus.png);
+    background-size: 250px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: 15px;
+    color: black;
+    border: 2px,silver,solid;
+    font-family:monospace;
+    font-size: 15px;
+    transition: all,0.25s;
+    border-radius: 10px;
+}
+
+.casing h2 {
+    padding-top: 265px;
+}
+
+.casing p {
+    line-height: 25px;
+    font-weight: 900;
+}
+
+#case1 {
+    background-image: url(/images/nzxtcasing.png);
+}
+
+#case1:hover {
+    background-image: url(/images/nzxtcasinghover.png);
+    background-size: 210px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#case2 {
+    background-image: url(/images/redragoncasing.png);
+    background-size: 225px;
+}
+
+#case2:hover {
+    background-image: url(/images/redragonhover.png);
+    background-size: 225px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#case3 {
+    background-image: url(/images/asuscasing.png);
+    background-size: 210px;
+}
+
+#case3:hover {
+    background-image: url(/images/asuscasinghover.png);
+    background-size: 210px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#case4 {
+    background-image: url(/images/alienwarecasing.png);
+    background-size: 230px;
+}
+
+#case4:hover {
+    background-image: url(/images/alienwarecasinghover.png);
+    background-size: 230px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#case5 {
+    background-image: url(/images/conquercasing.png);
+    background-size: 220px;
+}
+
+#case5:hover {
+    background-image: url(/images/conquercasinghover.png);
+    background-size: 255px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#case6 {
+    background-image: url(/images/hytecasing.png);
+    background-size: 240px;
+}
+
+#case6:hover {
+    background-image: url(/images/hytecasinghover.png);
+    background-size: 240x;
+    box-shadow: 3px 3px 5px silver;
+}
+
+.casing:hover {
+    background-color:rgb(253, 253, 253);
+    background-size: 300px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* MONITOR SUBPAGE */
+
+#head {
+    text-align: center;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(96, 96, 96);
+}
+
+#products {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: white;
+    padding-top: 45px;
+}
+
+
+.monitor {
+    height: 465px;
+    width: 325px;
+    background-color:rgb(253, 253, 253);
+    background-image: url(/images/HP\ victus.png);
+    background-size: 250px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: 15px;
+    color: black;
+    border: 2px,silver,solid;
+    font-family:monospace;
+    font-size: 15px;
+    transition: all,0.25s;
+    border-radius: 10px;
+}
+
+.monitor h2 {
+    padding-top: 265px;
+}
+
+.monitor p {
+    line-height: 25px;
+    font-weight: 900;
+}
+
+#mon1 {
+    background-image: url(/images/asusmonitor.png);
+}
+
+#mon1:hover {
+    background-image: url(/images/asusmonitorhover.png);
+    background-size: 230px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#mon2 {
+    background-image: url(/images/samsungmonitor.png);
+    background-size: 225px;
+}
+
+#mon2:hover {
+    background-image: url(/images/samsungmonitorhover.png);
+    background-size: 225px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#mon3 {
+    background-image: url(/images/hyperxmonitor.png);
+    background-size: 220px;
+}
+
+#mon3:hover {
+    background-image: url(/images/hyperxmonitorhover.png);
+    background-size: 240px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#mon4 {
+    background-image: url(/images/redragonmonitor.png);
+    background-size: 230px;
+}
+
+#mon4:hover {
+    background-image: url(/images/redragonmonitorhover.png);
+    background-size: 210px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#mon5 {
+    background-image: url(/images/lgmonitor.png);
+    background-size: 220px;
+}
+
+#mon5:hover {
+    background-image: url(/images/lgmonitorhover.png);
+    background-size: 220px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#mon6 {
+    background-image: url(/images/lenovomonitor.png);
+    background-size: 240px;
+}
+
+#mon6:hover {
+    background-image: url(/images/lenovomonitorhover.png);
+    background-size: 240x;
+    box-shadow: 3px 3px 5px silver;
+}
+
+.monitor:hover {
+    background-color:rgb(253, 253, 253);
+    background-size: 300px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* KEYBOARD SUBPAGE */
+
+#products {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: white;
+    padding-top: 45px;
+}
+
+.keyboard {
+    height: 465px;
+    width: 325px;
+    background-color:rgb(253, 253, 253);
+    background-image: url(/images/HP\ victus.png);
+    background-size: 250px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: 15px;
+    color: black;
+    border: 2px,silver,solid;
+    font-family:monospace;
+    font-size: 15px;
+    transition: all,0.25s;
+    border-radius: 10px;
+}
+
+.keyboard h2 {
+    padding-top: 265px;
+}
+
+.keyboard p {
+    line-height: 25px;
+    font-weight: 900;
+}
+
+#kb1 {
+    background-image: url(/images/draconicpro.png);
+    background-position-y: 65px;
+}
+
+#kb1:hover {
+    background-image: url(/images/draconicprohover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#kb2 {
+    background-image: url(/images/kumara.png);
+    background-position-y: 65px;
+}
+
+#kb2:hover {
+    background-image: url(/images/kumarahover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#kb3 {
+    background-image: url(/images/huntsman.png);
+    background-position-y: 65px;
+}
+
+#kb3:hover {
+    background-image: url(/images/huntsmanhover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#kb4 {
+    background-image: url(/images/alloyog.png);
+    background-position-y: 50px;
+}
+
+#kb4:hover {
+    background-image: url(/images/alloyoghover.png);
+    background-position-y: 80px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#kb5 {
+    background-image: url(/images/alloyelite.png);
+    background-position-y: 50px;
+}
+
+#kb5:hover {
+    background-image: url(/images/alloyelitehover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#kb6 {
+    background-image: url(/images/omenencoder.png);
+    background-position-y: 85px;
+}
+
+#kb6:hover {
+    background-image: url(/images/omenencoderhover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+.keyboard:hover {
+    background-color:rgb(253, 253, 253);
+    background-size: 300px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* GPU SUBPAGE*/
+
+
+#products {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: white;
+    padding-top: 45px;
+}
+
+.graphic-card {
+    height: 440px;
+    width: 325px;
+    background-color:rgb(253, 253, 253);
+    background-image: url(/images/HP\ victus.png);
+    background-size: 250px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: 15px;
+    color: black;
+    border: 2px,silver,solid;
+    font-family:monospace;
+    font-size: 15px;
+    transition: all,0.25s;
+    border-radius: 10px;
+}
+
+.graphic-card h2 {
+    padding-top: 265px;
+}
+
+.graphic-card p {
+    line-height: 25px;
+    font-weight: 900;
+}
+
+#gc1 {
+    background-image: url(/images/1660super.png);
+}
+
+#gc1:hover {
+    background-image: url(/images/1660superhover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#gc2 {
+    background-image: url(/images/rtx2060super.png);
+}
+
+#gc2:hover {
+    background-image: url(/images/rtx2060superhover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#gc3 {
+    background-image: url(/images/rtx30502.png);
+}
+
+#gc3:hover {
+    background-image: url(/images/rtx3050hover.png);
+    box-shadow: 3px 3px 5px silver;
+}
+
+#gc4 {
+    background-image: url(/images/rtx4080super.png);
+}
+
+#gc4:hover {
+    background-image: url(/images/rtx4080superhover.png);
+    box-shadow: 3px 3px 5px silver;
+    background-position-y: 70px;
+}
+
+#gc5 {
+    background-image: url(/images/gtx1080ti.png);
+}
+
+#gc5:hover {
+    background-image: url(/images/gtx1080tihover.png);
+    background-position-y: 50px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#gc6 {
+    background-image: url(/images/rtx4090.png);
+}
+
+#gc6:hover {
+    background-image: url(/images/rtx4090hover.png);
+    background-position-y: 50px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+.graphic-card:hover {
+    background-color:rgb(253, 253, 253);
+    background-size: 300px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* MOUSE SUBPAGE */
+
+#products {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: white;
+    padding-top: 45px;
+}
+
+.mouse {
+    height: 440px;
+    width: 325px;
+    background-color:rgb(253, 253, 253);
+    background-image: url(/images/HP\ victus.png);
+    background-size: 250px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: 15px;
+    color: black;
+    border: 2px,silver,solid;
+    font-family:monospace;
+    font-size: 15px;
+    transition: all,0.25s;
+    border-radius: 10px;
+}
+
+.mouse h2 {
+    padding-top: 265px;
+}
+
+.mouse p {
+    line-height: 25px;
+    font-weight: 900;
+}
+
+#m1 {
+    background-image: url(/images/j95.png);
+    background-position-y: 35px;
+    background-size: 190px;
+}
+
+#m1:hover {
+    background-image: url(/images/j95hover.png);
+    background-size: 145px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#m2 {
+    background-image: url(/images/modelo.png);
+    background-size: 210px;
+}
+
+#m2:hover {
+    background-image: url(/images/modelohover.png);
+    background-size: 145px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#m3 {
+    background-image: url(/images/centrophorus.png);
+    background-size: 210px;
+}
+
+#m3:hover {
+    background-image: url(/images/centrophorushover.png);
+    background-size: 160px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#m4 {
+    background-image: url(/images/SSmousepad.png);
+    background-size: 320px;
+    background-position-y: 50px;
+}
+
+#m4:hover {
+    background-image: url(/images/SSmousepadhover.png);
+    background-position-y: 0px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#m5 {
+    background-image: url(/images/blackshark.png);
+    background-size: 250px;
+}
+
+#m5:hover {
+    background-image: url(/images/blacksharkhover.png);
+    background-position-y: 70px;
+    background-size: 250px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#m6 {
+    background-image: url(/images/pluto.png);
+    background-position-x: 15px;
+    background-position-y: 35px;
+    background-size: 270px;
+}
+
+#m6:hover {
+    background-image: url(/images/plutohover.png);
+    background-position-x: 25px;
+    background-position-y: 35px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+.mouse:hover {
+    background-color:rgb(253, 253, 253);
+    background-size: 300px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* GAMEPAD SUBPAGE */
+
+#products {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: white;
+    padding-top: 45px;
+}
+
+.gamepad {
+    height: 465px;
+    width: 325px;
+    background-color:rgb(253, 253, 253);
+    background-image: url(/images/HP\ victus.png);
+    background-size: 250px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: 15px;
+    color: black;
+    border: 2px,silver,solid;
+    font-family:monospace;
+    font-size: 15px;
+    transition: all,0.25s;
+    border-radius: 10px;
+}
+
+.gamepad h2 {
+    padding-top: 265px;
+}
+
+.gamepad p {
+    line-height: 25px;
+    font-weight: 900;
+}
+
+#gp1 {
+    background-image: url(/images/harrow.png);
+}
+
+#gp1:hover {
+    background-image: url(/images/controller.png);
+    background-size: 225px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#gp2 {
+    background-image: url(/images/saturn.png);
+}
+
+#gp2:hover {
+    background-image: url(/images/saturnhover.png);
+    background-size: 225px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#gp3 {
+    background-image: url(/images/logitechgp.png);
+    background-position-y: 40px;
+}
+
+#gp3:hover {
+    background-image: url(/images/logitechgphover.png);
+    background-size: 250px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#gp4 {
+    background-image: url(/images/msigp.png);
+    background-position-y: 35px;
+}
+
+#gp4:hover {
+    background-image: url(/images/msigphover.png);
+    box-shadow: 3px 3px 5px silver;
+    background-position-y: 35px;
+    background-size: 265px;
+}
+
+#gp5 {
+    background-image: url(/images/razergp.png);
+    background-position-y: 35px;
+}
+
+#gp5:hover {
+    background-image: url(/images/razergphover.png);
+    background-position-y: 30px;
+    background-size: 250px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#gp6 {
+    background-image: url(/images/DSedge.png);
+}
+
+#gp6:hover {
+    background-image: url(/images/DSedgehover.png);
+    background-position-y: 40px;
+    background-size: 265px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+.gamepad:hover {
+    background-color:rgb(253, 253, 253);
+    background-size: 300px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* HEADSET SUBPAGE */
+
+#products {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    background-color: white;
+    padding-top: 45px;
+}
+
+.headset {
+    height: 465px;
+    width: 325px;
+    background-color:rgb(253, 253, 253);
+    background-image: url(/images/HP\ victus.png);
+    background-size: 250px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-position-y: 15px;
+    color: black;
+    border: 2px,silver,solid;
+    font-family:monospace;
+    font-size: 15px;
+    transition: all,0.25s;
+    border-radius: 10px;
+}
+
+.headset h2 {
+    padding-top: 265px;
+}
+
+.headset p {
+    line-height: 25px;
+    font-weight: 900;
+}
+
+#hs1 {
+    background-image: url(/images/pandora.webp);
+    background-size: 220px;
+}
+
+#hs1:hover {
+    background-image: url(/images/pandorahover.png);
+    background-size: 200px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#hs2 {
+    background-image: url(/images/hyperxhead.png);
+}
+
+#hs2:hover {
+    background-image: url(/images/hyperxheadhover.png);
+    background-size: 225px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#hs3 {
+    background-image: url(/images/zeus.png);
+    background-position-y: 10px;
+    background-size: 200px;
+}
+
+#hs3:hover {
+    background-image: url(/images/zeushover.png);
+    background-size: 200px;
+    background-position-y: 20px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#hs4 {
+    background-image: url(/images/razerhead.png);
+    background-position-y: 25px;
+    background-size: 190px;
+}
+
+#hs4:hover {
+    background-image: url(/images/razerheadhover.png);
+    box-shadow: 3px 3px 5px silver;
+    background-position-y: 35px;
+    background-size: 150px;
+}
+
+#hs5 {
+    background-image: url(/images/bloodyhead.png);
+    background-position-y: 20px;
+    background-size: 200px;
+}
+
+#hs5:hover {
+    background-image: url(/images/bloodyheadhover.png);
+    background-position-y: 20px;
+    background-size: 200px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+#hs6 {
+    background-image: url(/images/onikumahead.png);
+}
+
+#hs6:hover {
+    background-image: url(/images/onikumaheadhover.png);
+    background-position-y: 10px;
+    background-size: 265px;
+    box-shadow: 3px 3px 5px silver;
+}
+
+.headset:hover {
+    background-color:rgb(253, 253, 253);
+    background-size: 300px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
